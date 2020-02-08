@@ -21,12 +21,18 @@
     <ClInclude Include="Algorithm_Practice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PointerFun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Practice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerFun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

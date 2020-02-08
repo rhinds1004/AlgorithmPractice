@@ -1,29 +1,39 @@
 // Algorithm_Practice.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
-#include "pch.h"
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 #include "Algorithm_Practice.h"
+#include "PointerFun.h"
 
 using namespace std;
 
-void InsertSort(int[], int);
+
 
 int main()
 {
-	int arr[] = { 6,3,10,5,0,1,5,8,6,3 };
-	int in_array[] = { 6,3,10,5,0,1,5,8,6,3 };
-	printf("size of arr: %d", sizeof(arr));
+
 	//BubbleSort();
 
 	//SelectionSort();
-	int arr_len = sizeof(arr) / sizeof(int);
-	//	InsertSort(arr, sizeof(arr)/sizeof(int));
+
+	//InsertSort();
 
 
-		//printf("size of float: %d", sizeof(float));
+	
+	//AllocatingDeletingDynamicMemory();
+
+	//ShowingDifferenceBetweenPassByValueAndPassByReference();
+
+
+}
+
+void InsertSort()
+{
+
+	int in_array[] = { 6,3,10,5,0,1,5,8,6,3 };
+	int arr_len = sizeof(in_array) / sizeof(int);
+
 	int arr_index = 0;
 	int temp = 0;
 	int i = 0, j = 1;
@@ -45,12 +55,11 @@ int main()
 		}
 
 	}
+
 	//check if value at in_array[ToTheLeftOfi] > temp
-	//yes, move in_array[ToTheLeftOfi] value to the right
-	//do this until at beining of array or value is not > temp
-	//then move save element into new gap created by shifting the other elements.
-
-
+//yes, move in_array[ToTheLeftOfi] value to the right
+//do this until at beining of array or value is not > temp
+//then move save element into new gap created by shifting the other elements.
 
 	printf("\n");
 	for (i = 0; i < arr_len; i++)
@@ -58,12 +67,6 @@ int main()
 		printf("%d\n", in_array[i]);
 	}
 	printf("\n");
-}
-
-void InsertSort(int in_array[], int arr_len)
-{
-
-
 
 }
 
